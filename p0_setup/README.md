@@ -6,17 +6,17 @@ javascript applications which are bundled for the web.
 ## Commands
 
 * `npm run build`
-** lint, type-check, and compile the source into the `lib` directory
+  * lint, type-check, and compile the source into the `lib` directory
 * `npm run type-check`
-** type-check the source using the typescript compiler, do not emit any
-   artifacts
+  * type-check the source using the typescript compiler, do not emit any
+    artifacts
 * `npm run type-check:watch`
-** type-check the source automatically any time a file changes
+  * type-check the source automatically any time a file changes
 * `npm run lint-fix`
-** run eslint with prettier and automatically fix any linting errors
+  * run eslint with prettier and automatically fix any linting errors
 * `npm run bundle`
-** lint and run webpack to transpile, minify, and aggregate the application
-   into a single bundled js file for use in the browser
+  * lint and run webpack to transpile, minify, and aggregate the application
+    into a single bundled js file for use in the browser
 
 ## Tools
 
@@ -76,7 +76,7 @@ autocompletion support.
 Configuration for the Webpack tool which is used to bundle all of the various
 files and libraries into a single minified js file for use in the browser.
 
-### '.eslintrc.js'
+### `.eslintrc.js`
 
 ESlint catches common antipaterns and mistakes to provides warnings. It
 composes with prettier for source formatting.
