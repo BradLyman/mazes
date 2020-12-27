@@ -1,6 +1,5 @@
-function hello(thing: string) {
+export function hello(thing: string): void {
   console.log(`hello ${thing}`);
-  console.log('aoeuaoeu');
 }
 
 hello('world');
