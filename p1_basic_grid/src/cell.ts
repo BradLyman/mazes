@@ -67,7 +67,8 @@ export class Cell {
    * Returns true when it's possible to travel from this cell to the target
    * cell.
    */
-  is_linked(target: Cell): boolean {
+  is_linked(target: Cell | null): boolean {
+    if (target === null) return false;
     return this.links.has(target);
   }
 

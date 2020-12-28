@@ -11,7 +11,7 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,tsx\" --source-maps inline",
     "bundle": "npm run lint-fix && webpack",
-    "test": "mocha --require 'test/babel-register.js' \"test/**/*.{js,ts}\"",
+    "test": "mocha --require 'test/babel-register.js' \"test/**/*.{js,ts}\" --no-color",
     "test:watch": "npm run test -- --watch --watch-files \"test/**/*,src/**/*\""
   },
   "author": "Bradley Lyman",
